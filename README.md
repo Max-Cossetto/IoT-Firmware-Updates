@@ -4,7 +4,7 @@
 This repository contains the source code and documentation for managing over-the-air (OTA) firmware updates for IoT devices using Hyperledger Fabric and other tools. The system ensures secure, verifiable, and efficient firmware updates for IoT devices.
 
 ## File Structure
-- `firmware_chaincode/`: Contains the Hyperledger Fabric chaincode to manage firmware update transactions on the blockchain.
+- `chaincode/`: Contains the Hyperledger Fabric chaincode to manage firmware update transactions on the blockchain.
 - `scripts/`: Python scripts for downloading, verifying, and installing firmware updates on IoT devices.
   - `mpyupdate.py`: Designed for IoT devices running MicroPython.
   - `testupdate.py`: Used for simulating firmware update workflows and logging results.
